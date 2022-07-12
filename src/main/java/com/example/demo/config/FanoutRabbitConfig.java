@@ -23,17 +23,17 @@ public class FanoutRabbitConfig {
  
     @Bean
     public Queue queueA() {
-        return new Queue("fanout.A");
+        return new Queue("fanout.Aa");
     }
  
     @Bean
     public Queue queueB() {
-        return new Queue("fanout.B");
+        return new Queue("fanout.Bb");
     }
  
     @Bean
     public Queue queueC() {
-        return new Queue("fanout.C");
+        return new Queue("fanout.Cc");
     }
  
     @Bean
